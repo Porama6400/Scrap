@@ -1,0 +1,13 @@
+name: Scrap
+main: net.otlg.scrap.Scrap
+version: 1.0
+
+commands:
+  scrap:
+    permission: scrap.admin
+    description: Scrap administrative command
+
+permissions:
+  scrap.admin:
+    default: op
+    description: Scrap administrative permission
